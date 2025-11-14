@@ -14,7 +14,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "https://https://dw-transformer-backend-v2.onrender.com/api/generate-dw",
+        "https://dw-transformer-backend-v2.onrender.com/api/generate-dw",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
