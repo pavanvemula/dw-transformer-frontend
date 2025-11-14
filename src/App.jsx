@@ -13,7 +13,7 @@ export default function App() {
     setDwCode("");
 
     try {
-      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/generate-dw`, {
+      const response = await fetch(`https://https://dw-transformer-backend-v2.onrender.com/api/generate-dw`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ input: inputData, output: outputData })
